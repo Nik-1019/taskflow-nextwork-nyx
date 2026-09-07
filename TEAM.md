@@ -19,6 +19,7 @@ Seven engineers report directly to Hermes:
 ---
 
 ### 2. Frontend Engineer — Peter Parker (Spider-Man)
+- **Status:** 🟡 Onboarding — specialist being onboarded for UI work (AI brain incoming).
 - **Role:** Frontend Engineer
 - **Responsibilities:** User interface development, responsive design, accessibility (WCAG), component library, and frontend performance.
 - **Ownership Areas:** React component library, design-system tokens, user-facing pages, and browser compatibility.
@@ -27,6 +28,7 @@ Seven engineers report directly to Hermes:
 ---
 
 ### 3. Backend Engineer — Bruce Banner (The Hulk)
+- **Status:** 🟡 Onboarding — specialist being onboarded for API structure (AI brain incoming).
 - **Role:** Backend Engineer
 - **Responsibilities:** Server logic, REST/GraphQL APIs, authentication, business rules, and backend performance.
 - **Ownership Areas:** API services, authentication/authorization modules, database schemas, and business-logic layers.
@@ -51,6 +53,7 @@ Seven engineers report directly to Hermes:
 ---
 
 ### 6. QA Engineer — Logan / James Howlett (Wolverine)
+- **Status:** 🟡 Onboarding — specialist being onboarded for testing (AI brain incoming).
 - **Role:** QA Engineer
 - **Responsibilities:** Test automation, manual testing, bug tracking, release verification, and quality gates.
 - **Ownership Areas:** Automated test suites, test environments, regression tests, and release sign-off procedures.
