@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TaskFlow — Board Preview</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 48px 24px; background: #f4f5f7; font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #1c2126; }
+  h1 { text-align: center; font-size: 28px; font-weight: 700; margin: 0 0 6px; }
+  p.sub { text-align: center; color: #667085; margin: 0 0 40px; font-size: 15px; }
+  .board { display: flex; gap: 20px; max-width: 1000px; margin: 0 auto; align-items: flex-start; }
+  .card { background: #fff; border-radius: 12px; padding: 18px; box-shadow: 0 1px 3px rgba(16,24,40,0.08), 0 1px 2px rgba(16,24,40,0.04); flex: 1; }
+  .card h2 { font-size: 15px; font-weight: 600; margin: 0 0 16px; color: #344054; }
+  .task { background: #fafbfc; border: 1px solid #eaecf0; border-radius: 10px; padding: 14px; margin-bottom: 12px; }
+  .task h3 { margin: 0 0 6px; font-size: 14px; font-weight: 600; }
+  .task p { margin: 0 0 10px; font-size: 13px; color: #667085; line-height: 1.4; }
+  .badge { display: inline-block; font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 999px; }
+  .todo .badge { background: #eef2f6; color: #475467; }
+  .progress .badge { background: #fef3d6; color: #93650a; }
+  .done .badge { background: #d3f4e0; color: #067647; }
+</style>
+</head>
+<body>
+  <h1>TaskFlow</h1>
+  <p class="sub">Sprint 1 board preview</p>
+  <div class="board">
+    <div class="card todo">
+      <h2>To Do</h2>
+      <div class="task"><h3>Design token audit</h3><p>Confirm color and spacing scale against Tailwind config.</p><span class="badge">To Do</span></div>
+      <div class="task"><h3>Set up routing</h3><p>Add React Router with lazy-loaded board module.</p><span class="badge">To Do</span></div>
+    </div>
+    <div class="card progress">
+      <h2>In Progress</h2>
+      <div class="task"><h3>Kanban column layout</h3><p>Build draggable column shells for board view.</p><span class="badge">In Progress</span></div>
+    </div>
+    <div class="card done">
+      <h2>Done</h2>
+      <div class="task"><h3>Frontend scaffold</h3><p>Vite + TypeScript strict mode project initialized.</p><span class="badge">Done</span></div>
+    </div>
+  </div>
+</body>
+</html>
